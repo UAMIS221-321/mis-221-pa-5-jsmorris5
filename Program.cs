@@ -447,6 +447,7 @@ static void ViewAvailableSessions(List<Session> sessions)
     Console.WriteLine("Available training sessions:");
     foreach (Session session in sessions)
     {
+        System.Console.WriteLine("Here");
         if (session.Status == SessionStatus.Booked)
         {
             Console.WriteLine($"{session.Id}: {session.TrainingDate} - {session.TrainerName}");
