@@ -1,0 +1,54 @@
+456#Jasmine Morris#4/18/2023#10:00am#55.00#No
+457#Brian Rainwater#04/21/2023#1:00pm#60.00#Yes
+458#Skiler Kirk#04/19/2023#1:30pm#70.00#No
+459#Kayla Wesson#04/21/2023#9:00am#72.00#No
+460#Colson McDaniel#04/20/2023#3:00pm#70.00#No
+461#Kaylei Horn#04/18/2023#2:45pm#50.00#Yes
+462#Ashley Morgan#04/20/2023#2:00pm#55.00#No
+463#John Austin Roper#04/21/2023#11:00am#60.00#Yes
+464#Reagan Lawrence#04/19/2023#2:00pm#50.00#Yes
+465#Adalyn Conn#04/21/2023#9:00am#50.00#Yes
+466#Sage Stone#04/20/2023#12:00pm#50.00#No
+467#Timber Carter#04/18/2023#10:00am#75.00#Yes
+468#Bella Furfaro#04/21/2023#2:00pm#52.00#No
+469#Lauren Dolce#04/19/2023#2:30pm#52.00#Yes
+470#Gage Helms#04/18/2023#10:00am#50.00#No
+471#Robin Morris#04/21/2023#9:00am#50.00#Yes
+472#Julia Farris#04/20/2023#9:00am#60.00#Yes
+473#Rachel Creel#04/21/2023#12:00pm#66.00#No
+474#Eli Gravitt#04/20/2023#2:30pm#55.00#No
+475#Graham Hughey#04/20/2023#2:00pm#50.00#Yes
+476#Kelsey Payton#04/19/2023#3:00pm#53.00#No
+477#Peyton Beardon#04/21/2023#12:00pm#55.00#Yes
+478#Chloe Homes#04/19/2023#11:00am#55.00#No
+479#Crawford Lehman#04/19/2023#2:30pm#50.00#Yes
+480#John Tankersley#04/19/2023#9:00am#50.00#Yes
+481#Jessica Morris#04/21/2023#9:30am#72.00#Yes
+482#Brandi Kirk#04/21/2023#11:00am#50.00#Yes
+483#Kate Haugh#04/20/2023#2:30om#52.00#No
+484#Kelley Poore#04/21/2023#10:00am#55.00#No
+485#Gabby Knox#04/19/2023#10:00am#55.00#Yes
+486#Crews Proctor#04/21/2023#11:30am#52.00#No
+487#Taylor Harris#04/20/2023#3:00pm#52.00#No
+488#Cassidy Terrill#04/19/2023#9:00am#50.00#No
+489#Konnor Knight#04/20/2023#10:30am#65.00#Yes
+490#Grace Salizzoni#04/18/2023#9:00am#60.00#No
+491#Justin Morris#04/20/2023#2:00pm#55.00#No
+492#Canon Bryant#04/21/2023#10:00am#70.00#No
+493#Carli Coco#04/18/2023#9:00am#52.00#No
+494#Alix Earle#04/21/2023#3:00pm#64.00#Yes
+495#Abby Sharp#04/20/2023#4:00pm#55.00#Yes
+496#Emileigh Tyler#04/18/2023#2:30am#55.00#Yes
+497#Jon Dalton Pate#04/21/2023#12:00pm#62.00#Yes
+498#Gregg Wykoff#04/20/2023#1:30pm#55.00#No
+499#Rylie Lancaster#04/19/2023#9:00am#50.00#Yes
+500#Jon Hayden Johnson#04/19/2023#3:30pm#50.00#No
+501#Hayden Phillips#04/21/2023#12:00am#55.00#No
+502#Ty Singleton#04/21/2023#10:30am#50.00#Yes
+503#Phillip Morris#04/21/2023#1:00pm#51.00#No
+504#Boyd Ogles#04/20/2023#10:00am#50.00#No
+505#Kelsea Ballerini#04/20/2023#12:30pm#55.00#Yes
+506#Luke Hunnicutt#04/18/2023#9:00am#75.00#Yes
+507#Anne Pruett#04/21/2023#11:00am#50.00#No
+508#Taylor Anne Sulles#04/20/2023#4:00pm#55.00#No
+
