@@ -10,7 +10,7 @@ namespace mis_221_pa_5_jsmorris5{
     public int Id;
     public string CustomerName;
     public string CustomerEmail;
-    public string TrainingDate;
+    public DateTime TrainingDate;
     public int TrainerId;
     public string TrainerName;
     public SessionStatus Status;
@@ -39,11 +39,11 @@ namespace mis_221_pa_5_jsmorris5{
         return CustomerEmail;
     }
 
-    public void SetTrainingDate(string TrainingDate){
+    public void SetTrainingDate(DateTime TrainingDate){
         this.TrainingDate = TrainingDate;
     }
 
-    public string GetTrainingDate(){
+    public DateTime GetTrainingDate(){
         return TrainingDate;
     }
 
@@ -71,15 +71,15 @@ namespace mis_221_pa_5_jsmorris5{
     }
 
     
-     public Session(int id, string customerName, string customerEmail, string trainingDate, int trainerId, string trainerName, SessionStatus status)
+     public Session(int Id, string customerName, string customerEmail, DateTime trainingDate, int trainerId, string trainerName, SessionStatus status)
      {
-        Id = id;
-        CustomerName = customerName;
-        CustomerEmail = customerEmail;
-        TrainingDate = trainingDate;
-        TrainerId = trainerId;
-        TrainerName = trainerName;
-        Status = status;
+        this.Id = Id;
+        this.CustomerName = customerName;
+        this.CustomerEmail = customerEmail;
+        this.TrainingDate = trainingDate;
+        this.TrainerId = trainerId;
+        this.TrainerName = trainerName;
+        this.Status = status;
     }
     public override string ToString(){
     return $"{Id}#{CustomerName}#{CustomerEmail}#{TrainingDate}#{TrainerId}#{TrainerName}#{Status}";

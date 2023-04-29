@@ -55,12 +55,12 @@ namespace mis_221_pa_5_jsmorris5
     }
 
     public void GenerateHistoricalRevenueReport() {
-        Dictionary<string, int> revenuesByMonth = new Dictionary<string, int>();
-        Dictionary<string, int> revenuesByYear = new Dictionary<string, int>();
+        Dictionary<string, decimal> revenuesByMonth = new Dictionary<string, decimal>();
+        Dictionary<string, decimal> revenuesByYear = new Dictionary<string, decimal>();
 
         foreach (Revenue revenue in revenues) {
             string monthYear = revenue.Date.ToString("yyyy-MM");
-            int revenueAmount = revenue.Amount;
+            decimal revenueAmount = revenue.Amount;
 
             if (revenuesByMonth.ContainsKey(monthYear)) {
                 revenuesByMonth[monthYear] += revenueAmount;

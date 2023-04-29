@@ -3,7 +3,7 @@ namespace mis_221_pa_5_jsmorris5
     public class Revenue
     {
     public DateTime Date;
-    public int Amount;
+    public decimal Amount;
 
 
     public void SetDate(DateTime Date){
@@ -14,13 +14,13 @@ namespace mis_221_pa_5_jsmorris5
         return Date;
     }
 
-      public void SetAmount(int Amount){
+      public void SetAmount(decimal Amount){
         this.Amount = Amount;
     }
 
-    public int GetAmount(){
+    public decimal GetAmount(){
         return Amount;
     }
-
-    }
+    
+}
 }
