@@ -62,7 +62,6 @@ namespace mis_221_pa_5_jsmorris5
         Console.WriteLine("Has the listing been taken? Y or N");
         string input = Console.ReadLine();
         Console.ReadLine();
-        // bool availability = input.ToLower() == "y" ? true : false;
 
         Listing listing = new Listing(id, name, date, time, cost, input);
 
@@ -79,7 +78,6 @@ namespace mis_221_pa_5_jsmorris5
         Console.WriteLine("Enter the Listing ID of the listing you want to edit:");
         int Id = int.Parse(Console.ReadLine());
 
-        // List<string> lines = File.ReadAllLines(filename).ToList();
         string[] listings = File.ReadAllLines(filename);
         bool found = false;
 
@@ -124,7 +122,6 @@ namespace mis_221_pa_5_jsmorris5
         Console.WriteLine("Enter the Listing ID of the listing you want to delete:");
         string listingId = Console.ReadLine();
 
-        // List<string> lines = File.ReadAllLines(filename).ToList();
         string [] listings = File.ReadAllLines(filename);
         bool found = false;
 

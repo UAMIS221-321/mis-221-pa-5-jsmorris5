@@ -48,57 +48,13 @@ namespace mis_221_pa_5_jsmorris5
             }
         }
     }
-//     public void GenerateHistoricalCustomerSessionsReport() {
-//     var sessionsByCustomer = customerSessions.OrderBy(s => s.CustomerName).ThenBy(s => s.Date).GroupBy(s => s.CustomerName);
 
-//     Console.WriteLine("Historical training sessions");
-//     foreach (var group in sessionsByCustomer) {
-//         Console.WriteLine("Customer: " + group.Key + ", Total sessions: " + group.Count());
-//         foreach (CustomerSession session in group) {
-//             Console.WriteLine("Session ID: " + session.SessionId + ", Date: " + session.Date + ", Duration: " + session.Duration + ", Trainer: " + session.TrainerName + ", Status: " + session.Status);
-//         }
-//     }
-// }
-
-    // public void GenerateHistoricalRevenueReport() {
-    //     Dictionary<string, decimal> revenuesByMonth = new Dictionary<string, decimal>();
-    //     Dictionary<string, decimal> revenuesByYear = new Dictionary<string, decimal>();
-
-    //     foreach (Revenue revenue in revenues) {
-    //         string monthYear = revenue.Date.ToString("yyyy-MM");
-    //         decimal revenueAmount = revenue.Amount;
-
-    //         if (revenuesByMonth.ContainsKey(monthYear)) {
-    //             revenuesByMonth[monthYear] += revenueAmount;
-    //         } else {
-    //             revenuesByMonth.Add(monthYear, revenueAmount);
-    //         }
-
-    //         string year = revenue.Date.ToString("yyyy");
-    //         if (revenuesByYear.ContainsKey(year)) {
-    //             revenuesByYear[year] += revenueAmount;
-    //         } else {
-    //             revenuesByYear.Add(year, revenueAmount);
-    //         }
-    //     }
-
-    //     Console.WriteLine("Historical Revenue Report");
-    //     Console.WriteLine("By Month:");
-    //     foreach (string monthYear in revenuesByMonth.Keys) {
-    //         Console.WriteLine("Month/Year: " + monthYear + ", Revenue: $" + revenuesByMonth[monthYear]);
-    //     }
-
-    //     Console.WriteLine("By Year:");
-    //     foreach (string year in revenuesByYear.Keys) {
-    //         Console.WriteLine("Year: " + year + ", Revenue: $" + revenuesByYear[year]);
-    //     }
-    // }
     public void GenerateHistoricalRevenueReport() {
     var revenueByMonth = revenues.GroupBy(r => new { r.Year, r.Month })
                                  .Select(g => new { Month = g.Key.Month, Year = g.Key.Year, TotalRevenue = g.Sum(r => r.Amount) });
 
     foreach (var revenue in revenueByMonth) {
-        Console.WriteLine($"Month: {revenue.Month}, Year: {revenue.Year}, Total Revenue: {revenue.TotalRevenue}");
+        Console.WriteLine($"Month: {revenue.Month}, Year: {revenue.Year}");
     }
 }
 
