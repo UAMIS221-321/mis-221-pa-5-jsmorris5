@@ -4,6 +4,9 @@ namespace mis_221_pa_5_jsmorris5
     {
     public DateTime Date;
     public decimal Amount;
+    public int Year { get { return Date.Year; } }
+    public int Month { get { return Date.Month; } }
+
 
 
     public void SetDate(DateTime Date){
